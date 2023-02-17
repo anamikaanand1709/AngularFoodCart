@@ -1,0 +1,142 @@
+/* 
+
+  
+  button {
+    background-color: rgb(94, 5, 228);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+   */
+
+   .cart2{
+    color: black;
+   }
+
+   .cart {
+    /* border: 1px solid black; */
+    color: rgb(56, 6, 15);
+    padding: 10px;
+  }
+
+  .heading1
+  {
+    /* border: 1px solid black; */
+    color: rgb(56, 6, 15);
+    padding: 10px; 
+  }
+
+   .heading{
+    display: flex ; 
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(221, 87, 110);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    padding: 0;
+    height: 150px;
+    font-size: 45px;
+
+    
+   }
+   .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+   
+    
+   }
+   .mcontainer{
+    border: 1px solid rgb(212, 196, 196);
+    padding: 0 100px 150px 100px;
+    background-color: rgba(216, 179, 185, 0.63);
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3), -2px -2px 5px 0px rgba(0, 0, 0, 0.3);
+    
+   }
+  .ipt{
+    width: 275px;
+    height: 38px;
+    border-radius: 8px;
+    /* margin: 0 0 20px 0; */
+  }
+  .btn{
+    width: 70px;
+    background-color: rgb(247, 90, 119);
+    color: #fff;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .btn1{
+    width: 275px;
+    height:38px;
+    border-radius: 8px;
+    background-color: rgb(247, 90, 119);
+    font-size: 25px;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+
+  }
+  .deletebtn{
+    width: 70px;
+    background-color: rgb(247, 90, 119);
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  body {
+    background-image: url("/src/images/pexels-photo-1099680.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    }
+    .cart{
+      /* background-color: palevioletred; */
+      text-align: center;
+      
+    }
+
+  
+  .imgg{
+    width: 160px;
+    height: 70px;
+    float:inline-start;
+    padding-left:0 ;
+  }
+  /* ul li{
+    display: inline-block;
+    
+  }
+ li a{
+  color:#fff;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  padding:0 10px 0;
+  font-size: 20px;
+
+ }
+ .ul{
+  float:right;
+  align-items: end;
+  list-style-type: none;
+  background-color: red;
+
+}
+.hd{
+  padding-left: 10px;
+  
+}
+.list{
+  text-align: end;
+} */

@@ -1,0 +1,50 @@
+<div class="cart">
+	<div class="heading">
+		
+		<img class="imgg" src="https://tse3.mm.bing.net/th?id=OIP.IT7fpq0dYqs3E1-ST_jxUwHaHa&pid=Api&P=0">
+		<h2 class="hd" >Food Panda</h2>
+
+	</div>
+	<div class="img" [style.background-image]="'url(https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg)'"
+     [style.background-size]="'cover'"
+     [style.background-repeat]="'no-repeat'">
+   <!-- Your component's content goes here -->
+
+	<div class="container">
+	<div class="mcontainer">
+
+		<h3 class="heading1">Add Item</h3>
+		<div class="itemName">
+		<input class="ipt" type="text" [(ngModel)]="newItemName" placeholder="Item Name">
+		<div>
+		<button class="btn" (click)="decrement()" [disabled]="quantity===0">-</button>
+		{{quantity}}
+		<button class="btn" (click)="increment()">+</button>
+	</div>
+		</div>
+		
+		<input class="ipt" type="number" [(ngModel)]="newItemPrice" placeholder="Item price">
+		
+		<!-- <input type="number" [(ngModel)]="newItemPrice" placeholder="Item price"> -->
+		<div>
+		<button class="btn1" (click)="addItem()">Add</button>
+
+		<h2 class="cart">Cart</h2>
+		<div class="cart2">
+	<div *ngFor="let item of items">
+	  <p>{{ item.name }} - {{ item.price | currency: 'INR' }} * {{item.quantity}}</p>
+	  
+	  <button class="deletebtn" (click)="deleteItem(item)">Delete</button>
+	</div>
+	
+	<p *ngIf="!items.length">No items in cart</p>
+	
+	<p>Grand Total: {{ grandtotal | currency: 'INR' }}</p>
+	</div>
+	
+</div>
+</div>
+</div>
+</div>
+  </div>
+  
